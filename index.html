@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AC2</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <nav class="navbar navbar-dark">
+        <div class="container">
+            <div class="navbar-nav">
+                <a class="nav-link" href="#">Bootstrap</a>
+                <a class="nav-link" href="#">Home</a>
+                <a class="nav-link" href="#">Bio</a>
+                <a class="nav-link" href="#">Contato</a>
+            </div>
+        </div>
+    </nav>
+
+    <form class="search-form d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+    </form>
+
+
+    <div class="container form-container">
+        <div class="custom-form col-md-6">
+            <div class="mb-3">
+                <input type="text" id="titulo" class="form-control" placeholder="Título">
+            </div>
+            <button class="btn btn-primary" onclick="cadastrar()">Cadastrar</button>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row card-container" id="card-container">
+        </div>
+    </div>
+
+    <div class="bottom-btn-container">
+        <button class="btn btn-danger-custom" onclick="apagarTodos()">APAGAR TODOS</button>
+    </div>
+
+    <footer class="text-white text-center py-3">
+        Copyright Facens©2024 - Webdesign - Izabelly Fernandes
+    </footer>
+
+</body>
+</html>
